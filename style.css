@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(131, 131, 131);
+}
+
+.knappnytt{
+    color: blueviolet;
+    background-color:black;
+}
+
+#headerID {
+    margin-top: 3%;
+    background-image: url(https://www.livsmedelsverket.se/ClientUI/img/other/logo.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10vh;
+
+}
+
+/*
+██████  ██████   ██████  ██████  ██████   ██████  ██     ██ ███    ██     ██████  ██ ██    ██ ███████ 
+██   ██ ██   ██ ██    ██ ██   ██ ██   ██ ██    ██ ██     ██ ████   ██     ██   ██ ██ ██    ██ ██      
+██   ██ ██████  ██    ██ ██████  ██   ██ ██    ██ ██  █  ██ ██ ██  ██     ██   ██ ██ ██    ██ ███████ 
+██   ██ ██   ██ ██    ██ ██      ██   ██ ██    ██ ██ ███ ██ ██  ██ ██     ██   ██ ██  ██  ██       ██ 
+██████  ██   ██  ██████  ██      ██████   ██████   ███ ███  ██   ████     ██████  ██   ████   ███████ 
+*/                                                                                                                                                                                                            
+
+#dropdownDiv {
+    background-color: antiquewhite;
+    width:95%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 2%;
+    border-style: solid;
+    border-width: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px; /* space between columns, change as needed */
+    grid-row-gap: 10px; /* space between rows, change as needed */
+
+}
+
+#dropdownDiv_1, #dropdownDiv_2, #dropdownDiv_3, #dropdownDiv_4, #dropdownDiv_5, #dropdownDiv_6, #dropdownDiv_7, #dropdownDiv_8, #dropdownDiv_9, #dropdownDiv_10 {
+    background-color: rgb(255, 232, 201);
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+
+}
+
+#Choice_1, #Choice_2,  #Choice_3, #Choice_4, #Choice_5, #Choice_6, #Choice_7, #Choice_8, #Choice_9, #Choice_10 {
+    background-color: rgb(255, 232, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#dropdown_1, #dropdown_2, #dropdown_3, #dropdown_4, #dropdown_5, #dropdown_6, #dropdown_7, #dropdown_8, #dropdown_9, #dropdown_10 {
+    padding-left: 1%;
+    margin-bottom: 10px;
+}
+
+/*
+██ ███    ██ ███    ██ ███████ ██   ██  █████  ██      ██          ██████  ██ ██    ██ ███████ 
+██ ████   ██ ████   ██ ██      ██   ██ ██   ██ ██      ██          ██   ██ ██ ██    ██ ██      
+██ ██ ██  ██ ██ ██  ██ █████   ███████ ███████ ██      ██          ██   ██ ██ ██    ██ ███████ 
+██ ██  ██ ██ ██  ██ ██ ██      ██   ██ ██   ██ ██      ██          ██   ██ ██  ██  ██       ██ 
+██ ██   ████ ██   ████ ███████ ██   ██ ██   ██ ███████ ███████     ██████  ██   ████   ███████ 
+*/
+
+.collapsibleButton {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.collapsible_1 {
+    background-color: antiquewhite;
+    width: 99%;
+    margin: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+    
+}
+ 
+.collapsibleButton:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#NutiTableDiv {
+    height: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 25px; /* space between columns, change as needed */
+    grid-row-gap: 50px; /* space between rows, change as needed */
+    padding-bottom: 50px;
+}
+
+#nutritionTable_1, #nutritionTable_2, #nutritionTable_3, #nutritionTable_4, #nutritionTable_5, #nutritionTable_6, #nutritionTable_7, #nutritionTable_8, #nutritionTable_9, #nutritionTable_10 {
+    background-color: rgb(255, 232, 201);
+    min-width: 350px;
+    margin: auto;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    top: 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    position: relative;
+    top: 0px;
+    padding: 5px;
+    margin-top: 0px;
+
+}
+
+
+/*
+██ ███    ██ ███    ██ ███████ ██   ██  █████  ██      ██          ██████  
+██ ████   ██ ████   ██ ██      ██   ██ ██   ██ ██      ██               ██ 
+██ ██ ██  ██ ██ ██  ██ █████   ███████ ███████ ██      ██           █████  
+██ ██  ██ ██ ██  ██ ██ ██      ██   ██ ██   ██ ██      ██          ██      
+██ ██   ████ ██   ████ ███████ ██   ██ ██   ██ ███████ ███████     ███████ 
+*/
+
+#innehållDiv {
+    background-color: rgb(255, 145, 0);
+    width:95%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#innehållDiv_1 {
+    margin: 25px;
+}
+
+#innehållDiv_2 {
+    margin: 25px;
+}
+
+#innehållDiv_3 {
+    margin: 25px;
+}
+
+#Innehåll_space {
+    height: 40px;
+}
+
+.table_spacing {
+    padding: 5px;
+}
+
+.table_name {
+    position: relative;
+}
+
